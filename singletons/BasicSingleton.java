@@ -5,9 +5,7 @@ public class BasicSingleton {
     /**
      * Private constructor to avoid client applications using the constructor
      */
-    private BasicSingleton() {
-
-    }
+    private BasicSingleton() {}
 
     public static BasicSingleton getInstance() {
         return this.instance;
