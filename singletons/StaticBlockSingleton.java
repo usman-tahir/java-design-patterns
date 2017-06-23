@@ -16,6 +16,6 @@ public class StaticBlockSingleton {
     }
 
     public static StaticBlockSingleton getInstance() {
-        return this.instance;
+        return instance;
     }
 }

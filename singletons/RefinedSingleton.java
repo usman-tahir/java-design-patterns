@@ -11,7 +11,7 @@ public class RefinedSingleton {
      * Does not require synchronization; the helper class is not loaded into memory until the getInstance()
      * method is called
      */
-    public statuic RefinedSingleton getInstance() {
+    public static RefinedSingleton getInstance() {
         return RefinedSingletonHelper.INSTANCE;
     }
 

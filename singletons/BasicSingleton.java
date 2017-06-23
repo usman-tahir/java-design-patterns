@@ -8,6 +8,6 @@ public class BasicSingleton {
     private BasicSingleton() {}
 
     public static BasicSingleton getInstance() {
-        return this.instance;
+        return instance;
     }
 }

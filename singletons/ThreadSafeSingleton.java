@@ -8,13 +8,13 @@ public class ThreadSafeSingleton {
      * Only one thread can execute this method at a time; it is locked for other threads
      */
     public static synchronized ThreadSafeSingleton getInstance() {
-        if (this.instance == null) {
+        if (instance == null) {
             synchronized (ThreadSafeSingleton.class) {
-                if (this.instance == null) {
+                if (instance == null) {
                     instance = new ThreadSafeSingleton();
                 }
             }
         }
-        return this.instance;
+        return instance;
     }
 }
